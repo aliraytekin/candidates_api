@@ -1,0 +1,21 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  title: MyString
+  location: MyString
+  availability: MyString
+  salary_expectation_eur: 1
+  years_exp: 1
+  skills: MyText
+  languages: MyText
+
+two:
+  name: MyString
+  title: MyString
+  location: MyString
+  availability: MyString
+  salary_expectation_eur: 1
+  years_exp: 1
+  skills: MyText
+  languages: MyText

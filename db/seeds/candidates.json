@@ -1,0 +1,79 @@
+[
+  {
+    "id": "5c679e9a-9ae3-4818-9c96-bb0ea6e41c73",
+    "name": "Marie Dupont",
+    "title": "Civil Engineer",
+    "location": "Brussels, Belgium",
+    "skills": ["AutoCAD", "BIM", "Revit", "Project Management"],
+    "availability": "immediate",
+    "languages": ["English", "French", "Portuguese"],
+    "salaryExpectationEur": 54000,
+    "yearsExp": 5
+  },
+  {
+    "id": "7cfa5521-5ae2-42af-978a-d1f897f8b58a",
+    "name": "Luca Romano",
+    "title": "Architect",
+    "location": "Luxembourg City, Luxembourg",
+    "skills": ["Revit", "SketchUp", "Rhino", "Sustainability"],
+    "availability": "1-3 months",
+    "languages": ["French", "English"],
+    "salaryExpectationEur": 48000,
+    "yearsExp": 4
+  },
+  {
+    "id": "6d147a6c-f78d-413c-b5c1-ec674fc10c9b",
+    "name": "Sophie Lambert",
+    "title": "MEP Engineer",
+    "location": "Antwerp, Belgium",
+    "skills": ["HVAC", "AutoCAD", "BIM", "Energy Modeling"],
+    "availability": "immediate",
+    "languages": ["English", "Italian", "French"],
+    "salaryExpectationEur": 52000,
+    "yearsExp": 8
+  },
+  {
+    "id": "26fa5197-c1f5-4c74-8163-3d215a6acf8b",
+    "name": "João Ferreira",
+    "title": "Structural Engineer",
+    "location": "Liège, Belgium",
+    "skills": ["ETABS", "SAP2000", "Steel Design", "Concrete Design"],
+    "availability": "3+ months",
+    "languages": ["Dutch", "English", "French"],
+    "salaryExpectationEur": 60000,
+    "yearsExp": 3
+  },
+  {
+    "id": "f29902d9-7c0c-4c50-8d93-494158700df0",
+    "name": "Katarina Novak",
+    "title": "BIM Coordinator",
+    "location": "Ghent, Belgium",
+    "skills": ["BIM", "Navisworks", "Revit", "Clash Detection"],
+    "availability": "1-3 months",
+    "languages": ["English", "French", "Portuguese"],
+    "salaryExpectationEur": 43000,
+    "yearsExp": 5
+  },
+  {
+    "id": "ab3964b2-9d5b-45df-848b-c6d128a8e445",
+    "name": "Amine Bekkali",
+    "title": "Site Manager",
+    "location": "Brussels, Belgium",
+    "skills": ["Project Management", "Scheduling", "Health & Safety", "Budgeting"],
+    "availability": "immediate",
+    "languages": ["English", "Dutch"],
+    "salaryExpectationEur": 55000,
+    "yearsExp": 9
+  },
+  {
+    "id": "65bd932a-bfd7-4b6a-a9ff-98f6db784b23",
+    "name": "Elena Petrova",
+    "title": "Urban Planner",
+    "location": "Namur, Belgium",
+    "skills": ["GIS", "AutoCAD", "Urban Design", "Sustainability"],
+    "availability": "3+ months",
+    "languages": ["French"],
+    "salaryExpectationEur": 62000,
+    "yearsExp": 6
+  }
+]

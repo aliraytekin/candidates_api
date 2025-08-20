@@ -47,4 +47,3 @@ end
 
 
 gem "rack-cors", "~> 3.0"
-gem "kaminari", "~> 1.2"
