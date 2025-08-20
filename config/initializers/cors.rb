@@ -1,6 +1,9 @@
 Rails.application.config.middleware.insert_before 0, Rack::Cors do
   allow do
-    origins "*"
+    origins(
+      'http://localhost:3001',
+      'https://candidates-dashboard.vercel.app'
+    )
 
     resource "*",
       headers: :any,

@@ -47,3 +47,5 @@ end
 
 
 gem "rack-cors", "~> 3.0"
+
+gem "dockerfile-rails", ">= 1.7", group: :development
