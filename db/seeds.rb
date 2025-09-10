@@ -6,6 +6,8 @@ puts "Deleting all candidates"
 
 Candidate.delete_all
 
+puts "Candidates deleted!"
+
 data.each do |c|
   Candidate.create!(
     name: c["name"],
