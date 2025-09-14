@@ -3,6 +3,8 @@ Searchkick.client = Elasticsearch::Client.new(
   user: "elastic",
   password: "search_1234_search",
   transport_options: {
-    ssl: { verify: false }
+    ssl: {
+      ca_file: Rails.root.join("config/http_ca.crt").to_s
+    }
   }
 )

@@ -16,15 +16,13 @@ class Api::V1::CandidatesController < ApplicationController
       where[:years_exp] = rng
     end
 
-    puts params[:skills] if params[:skills].present?
-
     if params[:skills].present?
-      skills = params[:skills].split(",").map(&:strip)
+      skills = params[:skills].split(",").map { |s| s.strip.downcase }
       where[:skills] = { all: skills }
     end
 
     if params[:languages].present?
-      langs = params[:languages].split(",").map(&:downcase)
+      langs = params[:languages].split(",").map { |l| l.strip.downcase }
       where[:languages] = langs
     end
 
